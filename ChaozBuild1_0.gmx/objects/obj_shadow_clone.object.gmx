@@ -67,7 +67,8 @@ event_inherited()
             <string>if (loop &lt; 8)
     loop += 1;
 
-if (!alarm[1] &amp;&amp; (loop &lt;= 7))
+
+if (!alarm[1] &amp;&amp; (loop &lt; 8))
     alarm[1] = 15;
     
 
@@ -119,7 +120,7 @@ if (!alarm[1] &amp;&amp; (loop &lt;= 7))
             <string>event_inherited()
 
 //Movement
-if (loop == 7)
+if (loop &gt;= 7)
     {
     scr_follow(obj_player,0,20000);
 }
