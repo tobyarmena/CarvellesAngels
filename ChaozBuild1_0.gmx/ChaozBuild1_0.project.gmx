@@ -88,27 +88,35 @@
       <sprite>sprites\spr_magma_pu</sprite>
       <sprite>sprites\spr_magma_pu_lvl2</sprite>
       <sprite>sprites\spr_charge_pu</sprite>
-      <sprite>sprites\spr_charge_pu_lvl2</sprite>
       <sprite>sprites\spr_pulse_pu</sprite>
       <sprite>sprites\spr_pulse_pu_lvl2</sprite>
       <sprite>sprites\spr_boulder_pu</sprite>
       <sprite>sprites\spr_boulder_pu_lvl2</sprite>
       <sprite>sprites\spr_vortex_pu</sprite>
+      <sprite>sprites\spr_vortex_pu_lvl2</sprite>
       <sprite>sprites\spr_minigun_pu</sprite>
+      <sprite>sprites\spr_minigun_pu_lvl2</sprite>
       <sprite>sprites\spr_blunder_pu</sprite>
+      <sprite>sprites\spr_blunder_pu_lvl2</sprite>
       <sprite>sprites\spr_shotgun_pu</sprite>
+      <sprite>sprites\spr_shotgun_pu_lvl2</sprite>
       <sprite>sprites\spr_laser_pu</sprite>
       <sprite>sprites\spr_flamethrower_pu</sprite>
+      <sprite>sprites\spr_flamethrower_pu_lvl2</sprite>
       <sprite>sprites\spr_needle_pu</sprite>
+      <sprite>sprites\spr_needle_pu_lvl2</sprite>
       <sprite>sprites\spr_ice_pu</sprite>
-      <sprite>sprites\spr_skull_marked_pu</sprite>
-      <sprite>sprites\spr_skull_eye_pu</sprite>
-      <sprite>sprites\spr_skull_hell_pu</sprite>
-      <sprite>sprites\spr_skull_broken_pu</sprite>
+      <sprite>sprites\spr_ice_pu_lvl2</sprite>
+      <sprite>sprites\spr_gas_pu</sprite>
+      <sprite>sprites\spr_gas_pu_lvl2</sprite>
       <sprite>sprites\spr_wisp_pu</sprite>
       <sprite>sprites\spr_missle_pu</sprite>
       <sprite>sprites\spr_wave_pu</sprite>
       <sprite>sprites\spr_scythe_pu</sprite>
+      <sprite>sprites\spr_skull_marked_pu</sprite>
+      <sprite>sprites\spr_skull_eye_pu</sprite>
+      <sprite>sprites\spr_skull_hell_pu</sprite>
+      <sprite>sprites\spr_skull_broken_pu</sprite>
       <sprite>sprites\spr_dash_pu</sprite>
       <sprite>sprites\spr_dash_plus_pu</sprite>
       <sprite>sprites\spr_grounder_pu</sprite>
@@ -116,7 +124,6 @@
       <sprite>sprites\spr_icewalker</sprite>
       <sprite>sprites\spr_wind_pu</sprite>
       <sprite>sprites\spr_stomp_pu</sprite>
-      <sprite>sprites\spr_gas_pu</sprite>
       <sprite>sprites\spr_legslot</sprite>
       <sprite>sprites\spr_killspree_core_pu</sprite>
       <sprite>sprites\spr_electric_core_pu</sprite>
