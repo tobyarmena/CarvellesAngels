@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_inherited()
+            <string>
 path = path_add();
 sethp = 200*global.scale
 mindmg = 5*global.scale;
@@ -45,7 +45,7 @@ change=1
 increase=0
 image_speed=0.2
 
-
+event_inherited()
 </string>
           </argument>
         </arguments>

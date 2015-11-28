@@ -31,6 +31,8 @@ sethp = 200
 hp= sethp;
 hpcheck = sethp;
 hpmax = sethp;
+
+event_inherited()
 </string>
           </argument>
         </arguments>

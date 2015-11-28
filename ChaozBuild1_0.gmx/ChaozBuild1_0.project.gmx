@@ -131,6 +131,7 @@
       <sprite>sprites\spr_stomp_pu</sprite>
       <sprite>sprites\spr_legslot</sprite>
       <sprite>sprites\spr_killspree_core_pu</sprite>
+      <sprite>sprites\spr_leech_core_pu</sprite>
       <sprite>sprites\spr_electric_core_pu</sprite>
     </sprites>
     <sprites name="particles">
@@ -376,6 +377,8 @@
       </scripts>
       <scripts name="Cores">
         <script>scripts\scr_core_killspree.gml</script>
+        <script>scripts\scr_core_electric.gml</script>
+        <script>scripts\scr_core_vampire.gml</script>
       </scripts>
       <script>scripts\scr_select.gml</script>
       <script>scripts\scr_turn_legs.gml</script>
@@ -415,7 +418,6 @@
     <script>scripts\scr_minimap.gml</script>
     <script>scripts\scr_angleDiff2.gml</script>
     <script>scripts\scr_resetgrid.gml</script>
-    <script>scripts\scr_core_electric.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_harrington</font>
@@ -513,6 +515,7 @@
       <object>objects\obj_blunder_pu</object>
       <object>objects\obj_killspree_pu</object>
       <object>objects\obj_electric_pu</object>
+      <object>objects\obj_leech_pu</object>
       <object>objects\obj_skull_marked_pu</object>
       <object>objects\obj_skull_eye_pu</object>
       <object>objects\obj_skull_hell_pu</object>
@@ -685,6 +688,7 @@
     <object>objects\obj_melee</object>
     <object>objects\obj_dreamorb</object>
     <object>objects\obj_healthorb</object>
+    <object>objects\obj_absorbhealth</object>
     <object>objects\obj_lightcontrol</object>
     <object>objects\obj_damagescreen</object>
     <object>objects\obj_parent_playerwall</object>

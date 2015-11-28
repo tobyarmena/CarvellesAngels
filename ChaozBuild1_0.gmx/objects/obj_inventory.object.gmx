@@ -320,10 +320,18 @@ global.items[27,5] = scr_icewalker
 //Electric Core
 global.items[28,0] = "Static Aura"  
 global.items[28,1] = 3             
-global.items[28,2] = c_aqua
+global.items[28,2] = make_color_rgb(0,100,255)
 global.items[28,3] = "You give off an electrical aura, #dealing damage to enemies close by."           
 global.items[28,4] = spr_electric_core_pu
 global.items[28,5] = scr_core_electric
+
+//Heal
+global.items[29,0] = "Leecher"  
+global.items[29,1] = 3             
+global.items[29,2] = c_aqua
+global.items[29,3] = "Damaging enemies has a chance to #absorb their health."           
+global.items[29,4] = spr_leech_core_pu
+global.items[29,5] = scr_core_vampire
 
 
 </string>

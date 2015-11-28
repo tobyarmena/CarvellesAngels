@@ -33,8 +33,14 @@ ltick = 5
 follow = true;
 hit = false
 direction = -phy_rotation
+hp= sethp;
+hpcheck = sethp;
+hpmax = sethp;
+hpcheck2 = sethp;
 
 imagep=0
+
+absorbcheck = hp
 </string>
           </argument>
         </arguments>

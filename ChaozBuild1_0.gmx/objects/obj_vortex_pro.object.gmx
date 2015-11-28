@@ -36,7 +36,7 @@ image_yscale = 2
 alarm[0] = 300
 mindmg = 10
 maxdmg = 20
-dmg=5
+dmg=10
 
 global.vortexx = x
 global.vortexy = y
@@ -72,12 +72,14 @@ if abs(x - global.vortexx) &lt;= 200 and abs(y-global.vortexy) &lt;=200
 if left = true
 with(obj_leftarm){
 delay = true
-alarm[0] = 90   
+alarm[0] = 30   
 }
 else
 with(obj_rightarm){
 delay = true
-alarm[0] = 90  }
+alarm[0] = 30  }
+//show_message("bang")
+effect_create_above(ef_ring, x, y, 2, c_black);
 </string>
           </argument>
         </arguments>

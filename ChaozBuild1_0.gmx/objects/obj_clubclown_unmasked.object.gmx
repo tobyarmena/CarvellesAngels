@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_inherited()
+            <string>
 path = path_add();
 sethp = 300*global.scale
 mindmg = 5*global.scale;
@@ -44,7 +44,7 @@ value=3;
 change=1
 increase=0
 image_speed=0.2
-
+event_inherited()
 //behavior
 state = 0
 chance = false

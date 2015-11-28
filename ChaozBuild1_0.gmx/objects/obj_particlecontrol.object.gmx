@@ -339,6 +339,16 @@ part_type_life(global.icepath_pt,40,50)
 part_type_alpha2(global.icepath_pt,0.1,0)
 part_type_size(global.icepath_pt,0.1,1.5,0.01,0)
 
+//black hole explosion
+global.black_sys = part_system_create()
+global.blackx_pt = part_system_create()
+part_system_depth(global.black_sys,-10)
+part_type_shape(global.blackx_pt,pt_shape_ring)
+part_type_life(global.blackx_pt,30,30)
+part_type_size(global.blackx_pt,5,1,1,0)
+part_type_alpha2(global.blackx_pt,1,0)
+part_type_color2(global.blackx_pt,c_black,c_black)
+
 
 
 
