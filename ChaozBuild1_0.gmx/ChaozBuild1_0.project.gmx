@@ -617,6 +617,7 @@
         <object>objects\obj_particlelevel</object>
         <object>objects\obj_cursorcolor</object>
         <object>objects\obj_exit</object>
+        <object>objects\obj_goresurfacesetting</object>
       </objects>
       <objects name="Resolutions">
         <object>objects\obj_r1920x1080</object>

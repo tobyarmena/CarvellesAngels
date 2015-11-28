@@ -114,29 +114,40 @@ if surface_exists(bloodsurface)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if !surface_exists(bloodsurface)
+            <string>if global.goresurface == true
     {
-    bloodsurface = surface_create(obj_surface2.x-obj_surface1.x, obj_surface2.y-obj_surface1.y);
-    surface_set_target(bloodsurface);
-    draw_clear_alpha(c_black, 0); 
-    surface_reset_target();
+    if !surface_exists(bloodsurface)
+        {
+        bloodsurface = surface_create(obj_surface2.x-obj_surface1.x, obj_surface2.y-obj_surface1.y);
+        surface_set_target(bloodsurface);
+        draw_clear_alpha(c_black, 0); 
+        surface_reset_target();
+        }
+    else
+        {
+        draw_surface(bloodsurface, x, y); 
+        }
+    
+    if !surface_exists(global.decalsurface)
+        {
+        global.decalsurface = surface_create(obj_surface2.x-obj_surface1.x, obj_surface2.y-obj_surface1.y);
+        surface_set_target(global.decalsurface);
+        draw_clear_alpha(c_black, 0); 
+        surface_reset_target();
+        }
+    else
+        {
+        draw_surface(global.decalsurface, x, y); 
+        }
     }
-else
+else if global.goresurface == false
     {
-    draw_surface(bloodsurface, x, y); 
+    if surface_exists(bloodsurface)
+        surface_free(bloodsurface);
     }
+    
 
-if !surface_exists(global.decalsurface)
-    {
-    global.decalsurface = surface_create(obj_surface2.x-obj_surface1.x, obj_surface2.y-obj_surface1.y);
-    surface_set_target(global.decalsurface);
-    draw_clear_alpha(c_black, 0); 
-    surface_reset_target();
-    }
-else
-    {
-    draw_surface(global.decalsurface, x, y); 
-    }
+    
     
 
     

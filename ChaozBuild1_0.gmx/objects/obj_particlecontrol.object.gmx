@@ -262,7 +262,7 @@ part_type_speed(global.water2_pt,5,6,0,0)
 global.blood_sys = part_system_create();
 global.blood_pt = part_type_create();
 part_system_depth(global.blood_sys,100);
-part_type_alpha3(global.blood_pt,1,1,1)
+part_type_alpha3(global.blood_pt,1,1,0)
 part_type_life(global.blood_pt,60,60)
 part_type_orientation(global.blood_pt,0,360,0,0,false)
 part_type_direction(global.blood_pt,0,360,0,0)
@@ -272,7 +272,7 @@ global.blood2_sys = part_system_create();
 global.blood2_pt = part_type_create();
 //part_system_depth(global.blood2_sys,-10000);
 part_type_sprite(global.blood2_pt,spr_blood_pt,false,true,true)
-part_type_alpha3(global.blood2_pt,1,1,1)
+part_type_alpha3(global.blood2_pt,1,1,0)
 part_type_life(global.blood2_pt,60,60)
 part_type_size(global.blood2_pt,0.1,0.4,0,0)
 part_type_orientation(global.blood2_pt,0,360,0,0,false)

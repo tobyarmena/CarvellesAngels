@@ -28,6 +28,7 @@
             <string>xstart=x
 ystart=y
 wallcreate=false
+tileset = bg_mapspritesheet1
 
 
 if global.spawn = "down"
@@ -80,10 +81,10 @@ if global.doordown==false &amp;&amp;wallcreate==false
     instance_create(xx1,yy1,obj_wall)
     instance_create(xx2,yy2,obj_wall)
     
-    tile_add(bg_mapspritesheet1,64,256,64,64,xx1,yy1,-8)
-    tile_add(bg_mapspritesheet1,64,256,64,64,xx2,yy2,-8)
-    tile_add(bg_mapspritesheet1,64,256,64,64,xx3,yy3,-8)
-    tile_add(bg_mapspritesheet1,64,256,64,64,xx4,yy4,-8)
+    tile_add(tileset,64,256,64,64,xx1,yy1,-8)
+    tile_add(tileset,64,256,64,64,xx2,yy2,-8)
+    tile_add(tileset,64,256,64,64,xx3,yy3,-8)
+    tile_add(tileset,64,256,64,64,xx4,yy4,-8)
     
     tile_add(Cover,0,0,64,64,xx3,yy1+64,-100)
     tile_add(Cover,0,0,64,64,xx3+64,yy1+64,-100)
