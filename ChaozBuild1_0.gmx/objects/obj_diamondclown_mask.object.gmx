@@ -53,7 +53,7 @@ event_inherited()
 //behavior
 state = 0
 chance = false
-spd = 9000
+spd = 10000
 
 
 </string>
@@ -308,7 +308,7 @@ else if state = 2
 
     
 //set movespeed
-if phy_speed&lt;3
+if phy_speed&lt;2
     {
     image_speed=0
     image_index = 0
@@ -323,7 +323,7 @@ else
 if distance_to_object(obj_player)&lt;250 &amp;&amp; chance = false &amp;&amp; global.action != 0
     {
     chance = true
-    state = choose(0,0,0,0,0,0,1,1,1,2)
+    state = choose(0,0,0,0,0,1,1,1,1,2)
     alarm[2] = irandom_range(70,160)
     }
       
@@ -433,6 +433,6 @@ with(obj_player)
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>176,128</point>
-    <point>96,32</point>
+    <point>80,32</point>
   </PhysicsShapePoints>
 </object>

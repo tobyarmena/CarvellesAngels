@@ -200,6 +200,14 @@ part_type_life(global.heart_pt,60,60)
 part_type_alpha2(global.heart_pt,1,0)
 part_type_size(global.heart_pt,1,1,0.04,0.04)
 
+//diamond clown
+global.diamond_sys = part_system_create();
+global.diamond_pt = part_type_create();
+part_type_sprite(global.diamond_pt,spr_diamondclown_unmask,false,false,false)
+part_type_life(global.diamond_pt,60,60)
+part_type_alpha2(global.diamond_pt,1,0)
+part_type_size(global.diamond_pt,1,1,0.04,0.04)
+
 //explosion1
 
 global.explosion1_sys = part_system_create();

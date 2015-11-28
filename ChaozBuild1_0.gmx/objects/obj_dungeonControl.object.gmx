@@ -555,7 +555,7 @@ if (instance_number(obj_enemyspawn1)&gt;=amountspawned)
         
         //choose a random enemy
         
-        enemy = choose(obj_doll,obj_doll2,obj_clubclown_mask,obj_clubclown_mask,obj_heartclown_mask,obj_spadeclown_mask,obj_grimreaper)
+        enemy = choose(obj_doll,obj_doll2,obj_clubclown_mask,obj_clubclown_mask,obj_heartclown_mask,obj_spadeclown_mask,obj_grimreaper, obj_diamondclown_mask)
         
         //check if there isnt already an enemy in the position
         if (instance_position(xpos,ypos,par_enemies)==noone)

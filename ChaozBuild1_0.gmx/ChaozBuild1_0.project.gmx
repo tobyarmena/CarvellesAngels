@@ -156,9 +156,9 @@
       <sprite>sprites\spr_zombiet</sprite>
       <sprite>sprites\spr_weeping</sprite>
       <sprite>sprites\spr_enemyranged</sprite>
-      <sprite>sprites\spr_devideboss_l</sprite>
-      <sprite>sprites\spr_devideboss_m</sprite>
-      <sprite>sprites\spr_devideboss_s</sprite>
+      <sprite>sprites\spr_divideboss_l</sprite>
+      <sprite>sprites\spr_divideboss_m</sprite>
+      <sprite>sprites\spr_divideboss_s</sprite>
       <sprite>sprites\spr_enemyranged2</sprite>
       <sprite>sprites\spr_clubclown_mask</sprite>
       <sprite>sprites\spr_enemyranged3</sprite>
@@ -280,7 +280,6 @@
     <sprite>sprites\spr_divide_big</sprite>
     <sprite>sprites\spr_divide_med</sprite>
     <sprite>sprites\spr_divide_small</sprite>
-    <sprite>sprites\sprite229</sprite>
     <sprite>sprites\spr_armourstand</sprite>
   </sprites>
   <backgrounds name="background">
@@ -552,15 +551,15 @@
     </objects>
     <objects name="enemies">
       <objects name="Bosses">
-        <objects name="Devide">
-          <object>objects\obj_devideboss_l</object>
-          <object>objects\obj_devideboss_m</object>
-          <object>objects\obj_devideboss_s</object>
-          <object>objects\obj_parent_devide</object>
+        <objects name="Divide">
+          <object>objects\obj_divideboss_l</object>
+          <object>objects\obj_divideboss_m</object>
+          <object>objects\obj_divideboss_s</object>
         </objects>
         <objects name="Beetle">
           <object>objects\obj_beetlemom</object>
           <object>objects\obj_beetle</object>
+          <object>objects\obj_hive</object>
         </objects>
         <objects name="Shadow">
           <object>objects\obj_shadow</object>
@@ -608,7 +607,6 @@
       <object>objects\obj_weeping</object>
       <object>objects\obj_enemyranged3</object>
       <object>objects\obj_enemyranged2</object>
-      <object>objects\obj_hive</object>
       <object>objects\obj_centipart</object>
       <object>objects\obj_centihead</object>
       <object>objects\obj_armourstand_idle</object>

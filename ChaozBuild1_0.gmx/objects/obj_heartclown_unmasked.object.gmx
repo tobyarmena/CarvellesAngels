@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>
 path = path_add();
-sethp = 300*global.scale
+sethp = 600*global.scale
 mindmg = 5*global.scale;
 image_alpha = 0.7
 
@@ -49,7 +49,7 @@ event_inherited()
 //behavior
 state = 0
 chance = false
-spd = 7000
+spd = 11000
 
 
 
@@ -174,11 +174,13 @@ stamina = 60;
             <kind>1</kind>
             <string>event_inherited()
 
-scr_follow64(obj_player,0,10000)
+if global.action != 0
+    scr_follow64(obj_player,0,25000)
+else
+    scr_wander(10000)
 
-    
 //set movespeed
-if phy_speed&lt;3
+if phy_speed&lt;2
     {
     image_speed=0
     image_index = 0
