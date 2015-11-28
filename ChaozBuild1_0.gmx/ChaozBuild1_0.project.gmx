@@ -24,15 +24,34 @@
         <sprite>sprites\spr_firewalker_legs</sprite>
       </sprites>
       <sprites name="spells">
-        <sprite>sprites\spr_magma_arm</sprite>
+        <sprite>sprites\spr_magma_arm_lvl2</sprite>
         <sprite>sprites\spr_blunder_arm</sprite>
         <sprite>sprites\spr_charge_arm</sprite>
         <sprite>sprites\spr_pulse_arm</sprite>
+        <sprite>sprites\spr_pulse_arm_lvl2</sprite>
         <sprite>sprites\spr_boulder__arm</sprite>
+        <sprite>sprites\spr_boulder_arm_lvl2</sprite>
         <sprite>sprites\spr_flamethrower_arm</sprite>
+        <sprite>sprites\spr_flamethrower_arm_lvl2</sprite>
         <sprite>sprites\spr_needle_arm</sprite>
         <sprite>sprites\spr_laser_arm</sprite>
         <sprite>sprites\spr_water_arm</sprite>
+        <sprite>sprites\spr_minigun_arm</sprite>
+        <sprite>sprites\spr_minigun_arm_lvl2</sprite>
+        <sprite>sprites\spr_gas_arm</sprite>
+        <sprite>sprites\spr_gas_arm_lvl2</sprite>
+        <sprite>sprites\spr_shotgun_arm</sprite>
+        <sprite>sprites\spr_shotgun_arm_lvl2</sprite>
+        <sprite>sprites\spr_vortex_arm</sprite>
+        <sprite>sprites\spr_vortex_arm_lvl2</sprite>
+        <sprite>sprites\spr_missile_arm</sprite>
+        <sprite>sprites\spr_missle_arm_lvl2</sprite>
+        <sprite>sprites\spr_scythe_arm</sprite>
+        <sprite>sprites\spr_scythe_arm_lvl2</sprite>
+        <sprite>sprites\spr_ice_arm</sprite>
+        <sprite>sprites\spr_ice_arm_lvl2</sprite>
+        <sprite>sprites\spr_wisp_arm</sprite>
+        <sprite>sprites\spr_wisp_arm_lvl2</sprite>
         <sprite>sprites\spr_water_pro</sprite>
         <sprite>sprites\spr_magma_pro</sprite>
         <sprite>sprites\spr_blunder_pro</sprite>
@@ -42,24 +61,16 @@
         <sprite>sprites\spr_boulder_pro</sprite>
         <sprite>sprites\spr_miniboulder_pro</sprite>
         <sprite>sprites\spr_flame_pro</sprite>
-        <sprite>sprites\spr_minigun_arm</sprite>
         <sprite>sprites\spr_minigun_part</sprite>
         <sprite>sprites\spr_minigun_pro</sprite>
-        <sprite>sprites\spr_ice_arm</sprite>
         <sprite>sprites\spr_ice_pro</sprite>
-        <sprite>sprites\spr_wisp_arm</sprite>
         <sprite>sprites\spr_wisp</sprite>
         <sprite>sprites\spr_missile_pro</sprite>
         <sprite>sprites\spr_missle</sprite>
         <sprite>sprites\spr_wave</sprite>
         <sprite>sprites\spr_gas</sprite>
         <sprite>sprites\spr_gasCan</sprite>
-        <sprite>sprites\spr_gas_arm</sprite>
-        <sprite>sprites\spr_shotgun_arm</sprite>
-        <sprite>sprites\spr_vortex_arm</sprite>
-        <sprite>sprites\spr_scythe_arm</sprite>
         <sprite>sprites\spr_vortex_pro</sprite>
-        <sprite>sprites\spr_missile_arm</sprite>
         <sprite>sprites\spr_needle</sprite>
       </sprites>
       <sprites name="cores">
@@ -247,6 +258,7 @@
     <sprite>sprites\sprite117</sprite>
     <sprite>sprites\spr_water_pt</sprite>
     <sprite>sprites\spr_weaponstore</sprite>
+    <sprite>sprites\spr_weaponstore_spawn</sprite>
     <sprite>sprites\damaged</sprite>
     <sprite>sprites\spr_laser</sprite>
     <sprite>sprites\sprite131</sprite>
@@ -708,6 +720,7 @@
     <object>objects\obj_divide_large</object>
     <object>objects\obj_surface1</object>
     <object>objects\obj_surface2</object>
+    <object>objects\obj_weaponstore_spawn</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_mainmenu</room>
