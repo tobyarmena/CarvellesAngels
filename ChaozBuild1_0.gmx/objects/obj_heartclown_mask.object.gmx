@@ -266,7 +266,12 @@ else
     }
     
 //randomly attack player
-    
+if distance_to_object(obj_player)&lt;250 &amp;&amp; chance = false &amp;&amp; global.action != 0
+    {
+    chance = true
+    state = choose(0,0,0,0,0,0,1,1,1,2)
+    alarm[2] = irandom_range(70,130)
+    }    
 //spray blood
 if hit = true
     {

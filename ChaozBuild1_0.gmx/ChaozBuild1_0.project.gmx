@@ -570,6 +570,9 @@
       <objects name="Clowns">
         <object>objects\obj_spadeclown_mask</object>
         <object>objects\obj_spadeclown_unmask</object>
+        <object>objects\obj_diamondclown_mask</object>
+        <object>objects\obj_diamondclown_unmasked</object>
+        <object>objects\obj_bomb</object>
         <object>objects\obj_heartclown_mask</object>
         <object>objects\obj_heartclown_unmasked</object>
         <object>objects\obj_clubclown_mask</object>
