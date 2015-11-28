@@ -315,7 +315,7 @@ if phy_speed&lt;2
     }
 else
     {
-    image_speed=0.2
+    image_speed=0.4
     
     }
     
