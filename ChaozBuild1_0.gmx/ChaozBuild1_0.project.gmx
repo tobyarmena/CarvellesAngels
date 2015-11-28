@@ -86,11 +86,13 @@
       <sprite>sprites\spr_slot</sprite>
       <sprite>sprites\spr_inventory</sprite>
       <sprite>sprites\spr_magma_pu</sprite>
-      <sprite>sprites\spr_magma_pu_LVL2</sprite>
+      <sprite>sprites\spr_magma_pu_lvl2</sprite>
       <sprite>sprites\spr_charge_pu</sprite>
-      <sprite>sprites\spr_charge_pu_LVL2</sprite>
+      <sprite>sprites\spr_charge_pu_lvl2</sprite>
       <sprite>sprites\spr_pulse_pu</sprite>
+      <sprite>sprites\spr_pulse_pu_lvl2</sprite>
       <sprite>sprites\spr_boulder_pu</sprite>
+      <sprite>sprites\spr_boulder_pu_lvl2</sprite>
       <sprite>sprites\spr_vortex_pu</sprite>
       <sprite>sprites\spr_minigun_pu</sprite>
       <sprite>sprites\spr_blunder_pu</sprite>
