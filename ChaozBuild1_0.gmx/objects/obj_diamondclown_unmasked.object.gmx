@@ -190,7 +190,7 @@ if phy_speed&lt;2
     }
 else
     {
-    image_speed=0.4
+    image_speed=0.3
     
     }
     
@@ -307,6 +307,6 @@ with(obj_player)
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>160,128</point>
-    <point>96,32</point>
+    <point>64,32</point>
   </PhysicsShapePoints>
 </object>

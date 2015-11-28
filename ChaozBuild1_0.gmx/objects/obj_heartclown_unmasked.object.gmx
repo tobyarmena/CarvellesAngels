@@ -175,7 +175,7 @@ stamina = 60;
             <string>event_inherited()
 
 if global.action != 0
-    scr_follow64(obj_player,0,25000)
+    scr_follow64(obj_player,0,28000)
 else
     scr_wander(10000)
 

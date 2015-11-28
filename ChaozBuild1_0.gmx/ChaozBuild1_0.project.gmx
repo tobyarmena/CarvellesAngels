@@ -189,6 +189,7 @@
       <sprite>sprites\spr_heartclown_mask</sprite>
       <sprite>sprites\spr_doll</sprite>
       <sprite>sprites\spr_doll2</sprite>
+      <sprite>sprites\spr_imp</sprite>
       <sprite>sprites\spr_hive</sprite>
       <sprite>sprites\spr_spadeclown_mask</sprite>
       <sprite>sprites\spr_shadow</sprite>
@@ -295,6 +296,7 @@
     <sprite>sprites\spr_divide_med</sprite>
     <sprite>sprites\spr_divide_small</sprite>
     <sprite>sprites\spr_armourstand</sprite>
+    <sprite>sprites\spr_bomb</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -612,6 +614,7 @@
       <object>objects\obj_doll</object>
       <object>objects\obj_armourstand</object>
       <object>objects\obj_doll2</object>
+      <object>objects\obj_imp</object>
       <object>objects\obj_grimreaper</object>
       <object>objects\obj_enemy2</object>
       <object>objects\obj_zombie</object>
