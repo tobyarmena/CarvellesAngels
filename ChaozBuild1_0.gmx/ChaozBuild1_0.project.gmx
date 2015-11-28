@@ -102,6 +102,7 @@
       <sprite>sprites\spr_shotgun_pu_lvl2</sprite>
       <sprite>sprites\spr_laser_pu</sprite>
       <sprite>sprites\spr_flamethrower_pu</sprite>
+      <sprite>sprites\spr_flamethrower_pu_lvl3</sprite>
       <sprite>sprites\spr_flamethrower_pu_lvl2</sprite>
       <sprite>sprites\spr_needle_pu</sprite>
       <sprite>sprites\spr_needle_pu_lvl2</sprite>
@@ -110,9 +111,13 @@
       <sprite>sprites\spr_gas_pu</sprite>
       <sprite>sprites\spr_gas_pu_lvl2</sprite>
       <sprite>sprites\spr_wisp_pu</sprite>
+      <sprite>sprites\spr_wisp_pu_lvl2</sprite>
       <sprite>sprites\spr_missle_pu</sprite>
+      <sprite>sprites\spr_missle_pu_lvl2</sprite>
       <sprite>sprites\spr_wave_pu</sprite>
+      <sprite>sprites\spr_wave_pu_lvl2</sprite>
       <sprite>sprites\spr_scythe_pu</sprite>
+      <sprite>sprites\spr_scythe_pu_lvl2</sprite>
       <sprite>sprites\spr_skull_marked_pu</sprite>
       <sprite>sprites\spr_skull_eye_pu</sprite>
       <sprite>sprites\spr_skull_hell_pu</sprite>
@@ -419,6 +424,7 @@
     <font>fonts\fnt_menu</font>
     <font>fonts\fnt_item</font>
     <font>fonts\fnt_score</font>
+    <font>fonts\font6</font>
   </fonts>
   <objects name="objects">
     <objects name="player">
