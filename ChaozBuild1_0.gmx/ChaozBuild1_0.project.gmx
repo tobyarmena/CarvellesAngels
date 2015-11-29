@@ -294,7 +294,11 @@
     <sprite>sprites\spr_divide_big</sprite>
     <sprite>sprites\spr_divide_med</sprite>
     <sprite>sprites\spr_divide_small</sprite>
+    <sprite>sprites\spr_botzombiecorpse</sprite>
     <sprite>sprites\spr_armourstand</sprite>
+    <sprite>sprites\spr_topzombiecorpse</sprite>
+    <sprite>sprites\spr_glowwormcorpse</sprite>
+    <sprite>sprites\spr_armourstandcorpse</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>

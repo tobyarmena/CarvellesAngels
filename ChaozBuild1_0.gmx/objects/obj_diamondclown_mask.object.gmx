@@ -85,35 +85,34 @@ scr_bloodsplatter()
 corpse = instance_create(x,y,obj_corpse)
 with(corpse)
     {
-    spr = spr_heartclowncorpse
+    spr = spr_diamondclowncorpse
     img = 0
     scr_applyimpulse(irandom(360),irandom(1000))
     }
 corpse = instance_create(x,y,obj_corpse)
 with(corpse)
     {
-    spr = spr_heartclowncorpse
+    spr = spr_diamondclowncorpse
     img = 1
     scr_applyimpulse(irandom(360),irandom(1000))
     }
 corpse = instance_create(x,y,obj_corpse)
 with(corpse)
     {
-    spr = spr_heartclowncorpse
+    spr = spr_diamondclowncorpse
     img = 2
     scr_applyimpulse(irandom(360),irandom(1000))
     }
 
 corpse = instance_create(x,y,obj_corpse)
-repeat(7)
-{
+
 with(corpse)
     {
-    spr = spr_heartclowncorpse
+    spr = spr_diamondclowncorpse
     img = 3
     scr_applyimpulse(irandom(360),irandom(1000))
     }
-}
+
 chance = choose(0,0,0,1)
 if chance == 1
     instance_create(x,y,obj_diamondclown_unmasked)

@@ -357,6 +357,19 @@ part_type_size(global.blackx_pt,5,1,1,0)
 part_type_alpha2(global.blackx_pt,1,0)
 part_type_color2(global.blackx_pt,c_black,c_black)
 
+//magma
+
+global.magma1_sys = part_system_create();
+global.magma1_pt = part_type_create();
+
+part_type_shape(global.magma1_pt,pt_shape_ring)
+part_type_alpha2(global.magma1_pt,1,0)
+part_type_size(global.magma1_pt,1,1,0.3,0)
+//part_type_direction(global.magma1_pt,0,360,0,0)
+//part_type_speed(global.magma1_pt,2,4,0,0)
+part_type_life(global.magma1_pt,20,20)
+part_type_color2(global.magma1_pt,c_black,c_black)
+
 
 
 

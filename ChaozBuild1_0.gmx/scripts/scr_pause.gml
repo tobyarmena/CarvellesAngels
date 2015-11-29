@@ -55,6 +55,24 @@ part_system_automatic_update(global.wind_sys, false);
 part_system_automatic_update(global.water_sys, false);
 part_system_automatic_update(global.club_sys, false);
 part_system_automatic_update(global.explosion1_sys, false);
+part_system_automatic_update(global.club_sys, false);
+part_system_automatic_update(global.explosion1_sys, false);
+part_system_automatic_update(global.spade_sys, false);
+part_system_automatic_update(global.heart_sys, false);
+part_system_automatic_update(global.diamond_sys, false);
+part_system_automatic_update(global.blackhole1_sys, false);
+part_system_automatic_update(global.footdust_sys, false);
+part_system_automatic_update(global.water2_sys, false);
+part_system_automatic_update(global.blood_sys, false);
+part_system_automatic_update(global.blood2_sys, false);
+part_system_automatic_update(global.pulse_sys, false);
+part_system_automatic_update(global.pulse3_sys, false);
+part_system_automatic_update(global.pulse4_sys, false);
+part_system_automatic_update(global.heal_sys, false);
+part_system_automatic_update(global.firepath_sys, false);
+part_system_automatic_update(global.icepath_sys, false);
+part_system_automatic_update(global.blackx_sys, false);
+part_system_automatic_update(global.magma1_sys, false);
 //part_system_automatic_update(global.dash1_sys, false);
 
 
