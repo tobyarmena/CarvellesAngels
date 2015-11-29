@@ -27,6 +27,7 @@
         <sprite>sprites\spr_magma_arm_lvl2</sprite>
         <sprite>sprites\spr_blunder_arm</sprite>
         <sprite>sprites\spr_charge_arm</sprite>
+        <sprite>sprites\spr_magma_arm</sprite>
         <sprite>sprites\spr_pulse_arm</sprite>
         <sprite>sprites\spr_pulse_arm_lvl2</sprite>
         <sprite>sprites\spr_boulder__arm</sprite>
