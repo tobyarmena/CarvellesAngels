@@ -268,8 +268,8 @@ else if state = 1
     
     if (bomb == false) 
         {
-        bx = lengthdir_x(100,image_angle);
-        by = lengthdir_y(100,image_angle);
+        bx = lengthdir_x(120,image_angle);
+        by = lengthdir_y(120,image_angle);
         bomb = true;
         instance_create(x,y,obj_bomb);  
     
@@ -314,7 +314,7 @@ if phy_speed&lt;2
     }
 else
     {
-    image_speed=0.4
+    image_speed=0.3
     
     }
     
@@ -322,7 +322,7 @@ else
 if distance_to_object(obj_player)&lt;250 &amp;&amp; chance = false &amp;&amp; global.action != 0
     {
     chance = true
-    state = choose(0,0,0,0,0,1,1,1,1,2)
+    state = choose(0,0,0,1,1,1,1,1,2,2)
     alarm[2] = irandom_range(70,160)
     }
       
@@ -431,7 +431,7 @@ with(obj_player)
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>176,128</point>
-    <point>80,32</point>
+    <point>160,128</point>
+    <point>64,32</point>
   </PhysicsShapePoints>
 </object>
