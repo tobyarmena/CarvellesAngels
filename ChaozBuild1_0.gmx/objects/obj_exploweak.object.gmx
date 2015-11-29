@@ -48,7 +48,7 @@ with(par_enemies)
     if force&gt;0 &amp;&amp; !collision_line(x,y,other.x,other.y,obj_wall,false,true)&amp;&amp; !collision_line(x,y,other.x,other.y,obj_pushblock128,true,true)
         {
         scr_applyimpulse(point_direction(other.x,other.y,x,y),force)
-        hp -= 200
+        hp -= 100
         }   
     }
     

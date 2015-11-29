@@ -333,6 +333,14 @@ global.items[29,3] = "Damaging enemies has a chance to #absorb their health."
 global.items[29,4] = spr_leech_core_pu
 global.items[29,5] = scr_core_vampire
 
+//Heal
+global.items[30,0] = "Demolition"  
+global.items[30,1] = 3             
+global.items[30,2] = c_orange
+global.items[30,3] = "Killing an enemy makes them #explode and causes AOE damage."           
+global.items[30,4] = spr_core_explosion
+global.items[30,5] = scr_core_explosion
+
 
 </string>
           </argument>

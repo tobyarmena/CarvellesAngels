@@ -58,5 +58,7 @@ p[27] = 5000
 p[28] = 100000
 //leech core
 p[29] = 100000
+//explosion core
+p[30] = 100000
 
 return p[item_index]

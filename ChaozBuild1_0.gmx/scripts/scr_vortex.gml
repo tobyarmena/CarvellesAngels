@@ -1,5 +1,5 @@
 tick++
-if tick%20*global.pspd==0
+if tick%10*global.pspd==0
     {
     dtick = true
     }

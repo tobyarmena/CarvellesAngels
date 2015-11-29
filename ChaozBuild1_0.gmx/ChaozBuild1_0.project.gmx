@@ -130,6 +130,7 @@
       <sprite>sprites\spr_wind_pu</sprite>
       <sprite>sprites\spr_stomp_pu</sprite>
       <sprite>sprites\spr_legslot</sprite>
+      <sprite>sprites\spr_core_explosion</sprite>
       <sprite>sprites\spr_killspree_core_pu</sprite>
       <sprite>sprites\spr_leech_core_pu</sprite>
       <sprite>sprites\spr_electric_core_pu</sprite>
@@ -378,6 +379,7 @@
         <script>scripts\scr_core_killspree.gml</script>
         <script>scripts\scr_core_electric.gml</script>
         <script>scripts\scr_core_vampire.gml</script>
+        <script>scripts\scr_core_explosion.gml</script>
       </scripts>
       <script>scripts\scr_select.gml</script>
       <script>scripts\scr_turn_legs.gml</script>
@@ -515,6 +517,7 @@
       <object>objects\obj_killspree_pu</object>
       <object>objects\obj_electric_pu</object>
       <object>objects\obj_leech_pu</object>
+      <object>objects\obj_explosion_pu</object>
       <object>objects\obj_skull_marked_pu</object>
       <object>objects\obj_skull_eye_pu</object>
       <object>objects\obj_skull_hell_pu</object>
@@ -679,6 +682,7 @@
         <object>objects\obj_spike</object>
         <object>objects\obj_BarrelExplo</object>
         <object>objects\obj_explo</object>
+        <object>objects\obj_exploweak</object>
       </objects>
       <object>objects\obj_portal</object>
       <object>objects\obj_shopgen_spells</object>
