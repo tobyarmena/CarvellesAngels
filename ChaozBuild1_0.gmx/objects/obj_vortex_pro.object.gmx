@@ -82,7 +82,9 @@ with(obj_rightarm){
 delay = true
 alarm[0] = 30  }
 //show_message("bang")
-effect_create_above(ef_ring, x, y, 2, c_black);
+//effect_create_above(ef_ring, x, y, 2, c_black);
+
+part_particles_create(global.blackx_sys,x,y,global.blackx_pt,1)
 </string>
           </argument>
         </arguments>
